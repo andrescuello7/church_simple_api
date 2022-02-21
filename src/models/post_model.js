@@ -8,6 +8,10 @@ const post = mongoose.Schema({
   photo: {
     type: String,
   },
+  user: {
+    type: mongoose.Schema.Types.String.user,
+    ref: "user",
+  },
   creator: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "user",

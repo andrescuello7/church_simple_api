@@ -9,8 +9,7 @@ const post = mongoose.Schema({
     type: String,
   },
   user: {
-    type: mongoose.Schema.Types.String.user,
-    ref: "user",
+    type: String,
   },
   creator: {
     type: mongoose.Schema.Types.ObjectId,
